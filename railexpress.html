@@ -8847,7 +8847,7 @@ var requestOptions = {
   redirect: 'follow'
 };
   
-fetch("https://api.airtable.com/v0/app7I9liWgNMvmgcw/User%20Responses", requestOptions)
+window.fetch("https://api.airtable.com/v0/app7I9liWgNMvmgcw/User%20Responses", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
