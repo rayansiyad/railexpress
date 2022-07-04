@@ -87,9 +87,9 @@ var toolBarOnly = true;
             });
         }
 
-        if(_settings.isExpo && configuration.isMobile) {
-            initializeDeviceFrame();
-        }
+        // if(_settings.isExpo && configuration.isMobile) {
+        //     initializeDeviceFrame();
+        // }
 
         // Pseudo-indicator that the document has been loaded
         $axure.document.isLoaded = true;
